@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    background: conic-gradient(from -90deg at bottom center, papayawhip, peachpuff);
+    overflow: hidden;
+    user-select: none;
+}
+.contenedor {
+    margin: auto;
+    width: 95vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch {
+    background: none;
+    border: solid black 2px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
